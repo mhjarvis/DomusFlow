@@ -1,6 +1,8 @@
-**Home Maintenance Tracking App - Project Plan**
+- DomusFlow
+  **Home Maintenance Tracking App - Project Plan**
 
 ## **1. Overview**
+
 The Home Maintenance Tracking App will help homeowners manage and track home maintenance tasks, appliance details, weather conditions, and relevant discussions. The app will begin as a front-end React project using JSON files for data storage and later integrate backend features such as authentication and persistent databases.
 
 ---
@@ -8,9 +10,11 @@ The Home Maintenance Tracking App will help homeowners manage and track home mai
 ## **2. Main Sections & Features**
 
 ### **A. Dashboard**
+
 **Purpose:** Provides an overview of upcoming tasks, weather, and alerts.
 
 **Features:**
+
 - Quick summary of upcoming maintenance tasks.
 - Weather widget displaying local conditions.
 - Alerts for overdue tasks or expiring warranties.
@@ -19,9 +23,11 @@ The Home Maintenance Tracking App will help homeowners manage and track home mai
 ---
 
 ### **B. Task Manager**
+
 **Purpose:** Allows users to schedule and track home maintenance tasks.
 
 **Features:**
+
 - Add, edit, delete, and mark tasks as complete.
 - Assign due dates and receive reminders.
 - Categorize tasks (e.g., plumbing, electrical, seasonal maintenance).
@@ -31,9 +37,11 @@ The Home Maintenance Tracking App will help homeowners manage and track home mai
 ---
 
 ### **C. Appliance Tracker**
+
 **Purpose:** Helps users keep track of home appliances and their details.
 
 **Features:**
+
 - Store purchase dates, warranty expiration, and serial numbers.
 - Upload and store digital copies of manuals and receipts.
 - Set warranty expiration reminders.
@@ -42,9 +50,11 @@ The Home Maintenance Tracking App will help homeowners manage and track home mai
 ---
 
 ### **D. Weather & Events Widget**
+
 **Purpose:** Displays relevant weather and events that may impact home maintenance.
 
 **Features:**
+
 - Fetch real-time weather data based on user location.
 - Display severe weather warnings.
 - Highlight seasonal maintenance recommendations (e.g., winterizing pipes in cold weather).
@@ -53,9 +63,11 @@ The Home Maintenance Tracking App will help homeowners manage and track home mai
 ---
 
 ### **E. Discussion Forum**
+
 **Purpose:** A community space for users to discuss home maintenance topics.
 
 **Features:**
+
 - Create and reply to discussion threads.
 - Upvote or like useful posts.
 - Categorize discussions (e.g., DIY repairs, contractor recommendations, best home products).
@@ -78,16 +90,19 @@ The Home Maintenance Tracking App will help homeowners manage and track home mai
 ## **4. Roadmap & Development Phases**
 
 ### **Phase 1 - Frontend Development**
+
 - Build the UI using React.
 - Implement JSON-based data storage.
 - Develop core components: Dashboard, Task Manager, Appliance Tracker.
 
 ### **Phase 2 - Backend Integration**
+
 - Set up a database (PostgreSQL, MongoDB, or Firebase).
 - Implement authentication (login/logout, user accounts).
 - Create API endpoints for handling tasks, appliances, and user data.
 
 ### **Phase 3 - Advanced Features & Optimization**
+
 - Integrate real-time weather API.
 - Develop forum functionality.
 - Optimize for mobile responsiveness.
@@ -96,5 +111,5 @@ The Home Maintenance Tracking App will help homeowners manage and track home mai
 ---
 
 ## **5. Conclusion**
-This document outlines the key sections and features of the Home Maintenance Tracking App. The project will evolve from a simple front-end application to a full-stack web app with backend functionality. Feedback and iterations will guide the development process to ensure a user-friendly and valuable product.
 
+This document outlines the key sections and features of the Home Maintenance Tracking App. The project will evolve from a simple front-end application to a full-stack web app with backend functionality. Feedback and iterations will guide the development process to ensure a user-friendly and valuable product.
