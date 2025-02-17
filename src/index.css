@@ -1,19 +1,37 @@
 /* Global Styles */
 :root {
-	--primary-color: #2a9d8f; /* Greenish-blue */
-	--secondary-color: #264653; /* Dark teal */
-	--background-color: #f0fdfa; /* Very light greenish-blue */
-	--text-color: #333;
-	--heading-color: #1d3557; /* Deep blue */
+	--text: #070d12;
+	--background: #fbfdfe;
+	--background-menu: #eef6f7;
+	--primary: #2f95db;
+	--secondary: #7cc2f2;
+	--accent: #4db3f9;
+	--text-gray: rgb(135, 135, 135);
+	--white: #ffffff;
 	--border-radius: 8px;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
 }
 
 body {
 	font-family: Arial, sans-serif;
-	background-color: var(--background-color);
+	background-color: var(--background);
 	color: var(--text-color);
-	margin: 0;
-	padding: 0;
+	font-weight: 400;
+	line-height: 1.5;
+	min-height: 100vh;
+	/* border & padding accounted for in element's width/height */
+	box-sizing: border-box;
 }
 
 .container {
@@ -22,18 +40,33 @@ body {
 	margin: auto;
 }
 
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	color: var(--heading-color);
+	color: var(---text);
 }
 
 button {
-	background-color: var(--primary-color);
-	color: #fff;
+	background-color: var(--primary);
 	border: none;
 	padding: 10px 20px;
 	border-radius: var(--border-radius);
@@ -42,7 +75,7 @@ button {
 }
 
 button:hover {
-	background-color: var(--secondary-color);
+	background-color: var(--secondary);
 }
 
 /* Responsive Design */
