@@ -1,0 +1,81 @@
+/* Global Styles */
+:root {
+	--primary-color: #2a9d8f; /* Greenish-blue */
+	--secondary-color: #264653; /* Dark teal */
+	--background-color: #f0fdfa; /* Very light greenish-blue */
+	--text-color: #333;
+	--heading-color: #1d3557; /* Deep blue */
+	--border-radius: 8px;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: var(--background-color);
+	color: var(--text-color);
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--heading-color);
+}
+
+button {
+	background-color: var(--primary-color);
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: var(--border-radius);
+	cursor: pointer;
+	transition: background 0.3s;
+}
+
+button:hover {
+	background-color: var(--secondary-color);
+}
+
+/* Responsive Design */
+
+@media (max-width: 1440px) {
+	.container {
+		width: 85%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.container {
+		width: 80%;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		width: 95%;
+	}
+	button {
+		padding: 8px 16px;
+	}
+}
+
+@media (max-width: 360px) {
+	body {
+		font-size: 12px;
+	}
+}
