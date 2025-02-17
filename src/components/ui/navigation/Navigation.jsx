@@ -12,7 +12,7 @@ const menuItems = [
 ]
 
 export default function Sidebar() {
-	const [expanded, setExpanded] = useState(false)
+	const [expanded, setExpanded] = useState(true)
 
 	return (
 		<div
@@ -22,10 +22,18 @@ export default function Sidebar() {
 			onMouseEnter={() => setExpanded(true)}
 			onMouseLeave={() => setExpanded(false)}
 		>
+			{/*Logo*/}
+			<div className={styles.logo}>DF</div>
+
+			{/*Menu Items*/}
 			{menuItems.map((item, index) => (
 				<div key={index} className={styles.menuItem}>
-					{item.icon}
-					{expanded && <span className={styles.menuText}>{item.name}</span>}
+					<div>{item.icon}</div>
+					{/* 					{item.icon}
+					 */}{" "}
+					<div>
+						{expanded && <span className={styles.menuText}>{item.name}</span>}
+					</div>
 				</div>
 			))}
 		</div>
