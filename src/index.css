@@ -1,11 +1,12 @@
 /* Global Styles */
 :root {
-	--text: #070d12;
-	--background: #fbfdfe;
-	--background-menu: #eef6f7;
-	--primary: #2f95db;
-	--secondary: #7cc2f2;
-	--accent: #4db3f9;
+	--text: #0e150e;
+	--background: #fbfdfb;
+	--primary: #62af5f;
+	--secondary: #9fd59d;
+	--accent: #7bce78;
+
+	--background-secondary: #eef6f7;
 	--text-gray: rgb(135, 135, 135);
 	--white: #ffffff;
 	--border-radius: 8px;
