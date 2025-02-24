@@ -22,17 +22,15 @@ export default function Sidebar() {
 			onMouseEnter={() => setExpanded(true)}
 			onMouseLeave={() => setExpanded(false)}
 		>
-			{/*Logo*/}
+			{/* Logo */}
 			<div className={styles.logo}>DF</div>
 
-			{/*Menu Items*/}
+			{/* Menu Items */}
 			{menuItems.map((item, index) => (
-				<div key={index} className={styles.menuItem}>
-					<div>{item.icon}</div>
-					{/* 					{item.icon}
-					 */}{" "}
-					<div>
-						{expanded && <span className={styles.menuText}>{item.name}</span>}
+				<div key={index} className={styles.itemContainer}>
+					<div className={styles.itemIcon}>{item.icon}</div>
+					<div className={styles.itemNameWrapper}>
+						<span className={styles.itemName}>{item.name}</span>
 					</div>
 				</div>
 			))}
