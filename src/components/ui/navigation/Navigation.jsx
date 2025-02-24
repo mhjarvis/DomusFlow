@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Home, Calendar, Wrench, Cloud, Box, MessageSquare } from "lucide-react"
+import HamburgerMenu from "./HamburgerMenu"
 import styles from "./Navigation.module.css"
 
 const menuItems = [
@@ -23,7 +24,10 @@ export default function Sidebar() {
 			onMouseLeave={() => setExpanded(false)}
 		>
 			{/* Logo */}
-			<div className={styles.logo}>DF</div>
+			<div className={styles.menuHeader}>
+				<div className={styles.logo}>DF</div>
+				<HamburgerMenu isOpen={expanded} onToggle={setExpanded} />
+			</div>
 
 			{/* Menu Items */}
 			{menuItems.map((item, index) => (
