@@ -2,15 +2,14 @@
 
 /* Global Styles */
 :root {
-	--text: #0e150e;
-	--background: #fbfdfb;
-	--primary: #62af5f;
-	--secondary: #9fd59d;
-	--accent: #7bce78;
+	--primary: #c2410c;
+	--secondary: #fef3e8;
+	--background: #f7f7f7;
+	--text: #1f2521;
+	--accent: #8b5a2b;
+	--menu: #ededed;
+	--gray: #8b8a8a;
 
-	--background-secondary: #eef6f7;
-	--text-gray: rgb(135, 135, 135);
-	--white: #ffffff;
 	--border-radius: 8px;
 }
 

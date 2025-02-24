@@ -3,12 +3,12 @@ import { Home, Calendar, Wrench, Cloud, Box, MessageSquare } from "lucide-react"
 import styles from "./Navigation.module.css"
 
 const menuItems = [
-	{ name: "Dashboard", icon: <Home size={24} /> },
-	{ name: "Schedule", icon: <Calendar size={24} /> },
-	{ name: "Maintenance", icon: <Wrench size={24} /> },
-	{ name: "Weather", icon: <Cloud size={24} /> },
-	{ name: "Appliances", icon: <Box size={24} /> },
-	{ name: "Forum", icon: <MessageSquare size={24} /> },
+	{ name: "Dashboard", icon: <Home size={20} /> },
+	{ name: "Schedule", icon: <Calendar size={20} /> },
+	{ name: "Maintenance", icon: <Wrench size={20} /> },
+	{ name: "Weather", icon: <Cloud size={20} /> },
+	{ name: "Appliances", icon: <Box size={20} /> },
+	{ name: "Forum", icon: <MessageSquare size={20} /> },
 ]
 
 export default function Sidebar() {
