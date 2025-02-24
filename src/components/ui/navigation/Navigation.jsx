@@ -1,15 +1,16 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 import { Home, Calendar, Wrench, Cloud, Box, MessageSquare } from "lucide-react"
 import HamburgerMenu from "./HamburgerMenu"
 import styles from "./Navigation.module.css"
 
 const menuItems = [
-	{ name: "Dashboard", icon: <Home size={20} /> },
-	{ name: "Schedule", icon: <Calendar size={20} /> },
-	{ name: "Maintenance", icon: <Wrench size={20} /> },
-	{ name: "Weather", icon: <Cloud size={20} /> },
-	{ name: "Appliances", icon: <Box size={20} /> },
-	{ name: "Forum", icon: <MessageSquare size={20} /> },
+	{ name: "Dashboard", link: "/", icon: <Home size={20} /> },
+	{ name: "Schedule", link: "/schedule", icon: <Calendar size={20} /> },
+	{ name: "Maintenance", link: "/maintenance", icon: <Wrench size={20} /> },
+	{ name: "Weather", link: "/weather", icon: <Cloud size={20} /> },
+	{ name: "Appliances", link: "/appliances", icon: <Box size={20} /> },
+	{ name: "Forum", link: "/forum", icon: <MessageSquare size={20} /> },
 ]
 
 export default function Sidebar() {
@@ -34,7 +35,9 @@ export default function Sidebar() {
 				<div key={index} className={styles.itemContainer}>
 					<div className={styles.itemIcon}>{item.icon}</div>
 					<div className={styles.itemNameWrapper}>
-						<span className={styles.itemName}>{item.name}</span>
+						<Link to={item.link} className={styles.itemName}>
+							{item.name}
+						</Link>
 					</div>
 				</div>
 			))}
