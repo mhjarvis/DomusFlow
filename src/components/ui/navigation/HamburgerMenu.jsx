@@ -3,7 +3,6 @@ import styles from "./HamburgerMenu.module.css"
 import { useState } from "react"
 
 export default function HamburgerMenu({ isOpen, onToggle }) {
-	// If no external state is provided, manage internally
 	const [internalOpen, setInternalOpen] = useState(isOpen || false)
 	const isMenuOpen = isOpen !== undefined ? isOpen : internalOpen
 
