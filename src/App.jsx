@@ -1,6 +1,6 @@
 import "./App.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Dashboard from "./pages/Dashboard"
+import Dashboard from "./pages/dashboard/Dashboard"
 import Appliances from "./pages/Appliances"
 import PageNotFound from "./pages/PageNotFound"
 import Forum from "./pages/Forum"

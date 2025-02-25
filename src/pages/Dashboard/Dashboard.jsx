@@ -1,10 +1,11 @@
 import styles from "./Dashboard.module.css"
-import MainWithSidebar from "../templates/MainWithSidebar"
+import MainWithSidebar from "../../templates/MainWithSidebar"
+import PropertyOverview from "./PropertyOverview"
 export default function Dashboard() {
 	return (
 		<MainWithSidebar>
 			<div className={styles.dashboard}>
-				<h1>Dashboard</h1>
+				<PropertyOverview />
 			</div>
 		</MainWithSidebar>
 	)
