@@ -34,6 +34,7 @@ export default function Sidebar() {
 			className={`${styles.sidebar} ${
 				expanded ? styles.expanded : styles.collapsed
 			}`}
+			// expand/collapse sidebar on hover
 			onMouseEnter={() => setExpanded(true)}
 			onMouseLeave={() => setExpanded(false)}
 		>
@@ -46,7 +47,9 @@ export default function Sidebar() {
 			{/* Menu Items */}
 			{menuItems.map((item, index) => (
 				<div key={index} className={styles.itemContainer}>
-					<div className={styles.itemIcon}>{item.icon}</div>
+					<NavLink to={item.link} className={styles.itemIcon}>
+						{item.icon}
+					</NavLink>
 					<div className={styles.itemNameWrapper}>
 						<NavLink to={item.link} className={styles.itemName}>
 							{item.name}
