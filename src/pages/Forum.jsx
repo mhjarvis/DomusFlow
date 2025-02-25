@@ -1,4 +1,4 @@
-import { Navigation } from "lucide-react"
+import Navigation from "../components/ui/navigation/Navigation"
 
 export default function Forum() {
 	return (

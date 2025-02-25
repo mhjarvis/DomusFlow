@@ -1,14 +1,14 @@
 import "./App.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Dashboard from "./components/pages/Dashboard"
-import Appliances from "./components/pages/Appliances"
-import PageNotFound from "./components/pages/PageNotFound"
-import Forum from "./components/pages/Forum"
-import Projects from "./components/pages/Projects"
-import Login from "./components/pages/Login"
-import Maintenance from "./components/pages/Maintenance"
-import PropertyDetails from "./components/pages/PropertyDetails"
-import Weather from "./components/pages/Weather"
+import Dashboard from "./pages/Dashboard"
+import Appliances from "./pages/Appliances"
+import PageNotFound from "./pages/PageNotFound"
+import Forum from "./pages/Forum"
+import Projects from "./pages/Projects"
+import Login from "./pages/Login"
+import Maintenance from "./pages/Maintenance"
+import PropertyDetails from "./pages/PropertyDetails"
+import Weather from "./pages/Weather"
 
 export default function App() {
 	return (
@@ -19,10 +19,9 @@ export default function App() {
 				<Route path="/maintenance" element={<Maintenance />} />
 				<Route path="/appliances" element={<Appliances />} />
 				<Route path="/projects" element={<Projects />} />
-				<Route path="/forums" element={<Forum />} />
+				<Route path="/forum" element={<Forum />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/weather" element={<Weather />} />
-
 				<Route path="*" element={<PageNotFound />} />
 			</Routes>
 		</BrowserRouter>
