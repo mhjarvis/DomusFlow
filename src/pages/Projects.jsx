@@ -1,12 +1,9 @@
-import Navigation from "../components/ui/navigation/Navigation"
+import MainWithSidebar from "../templates/MainWithSidebar"
 
 export default function Projects() {
 	return (
-		<>
-			<div>
-				<Navigation />
-			</div>
+		<MainWithSidebar>
 			<h1>Projects</h1>
-		</>
+		</MainWithSidebar>
 	)
 }

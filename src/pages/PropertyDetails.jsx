@@ -1,12 +1,9 @@
-import Navigation from "../components/ui/navigation/Navigation"
+import MainWithSidebar from "../templates/MainWithSidebar"
 
 export default function PropertyDetails() {
 	return (
-		<>
-			<div>
-				<Navigation />
-			</div>
+		<MainWithSidebar>
 			<h1>Property Details</h1>
-		</>
+		</MainWithSidebar>
 	)
 }

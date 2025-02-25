@@ -1,11 +1,11 @@
 import styles from "./Dashboard.module.css"
-import WithMenu from "../templates/WithMenu"
+import MainWithSidebar from "../templates/MainWithSidebar"
 export default function Dashboard() {
 	return (
-		<WithMenu>
+		<MainWithSidebar>
 			<div className={styles.dashboard}>
 				<h1>Dashboard</h1>
 			</div>
-		</WithMenu>
+		</MainWithSidebar>
 	)
 }

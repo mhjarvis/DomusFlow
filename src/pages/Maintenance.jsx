@@ -1,9 +1,9 @@
-import Navigation from "../components/ui/navigation/Navigation"
+import MainWithSidebar from "../templates/MainWithSidebar"
 
 export default function Maintenance() {
 	return (
-		<div>
-			<Navigation />
-		</div>
+		<MainWithSidebar>
+			<h1>Maintenance</h1>
+		</MainWithSidebar>
 	)
 }
