@@ -1,3 +1,9 @@
+import Navigation from "../ui/navigation/Navigation"
+
 export default function Weather() {
-	return <div>Weather</div>
+	return (
+		<div>
+			<Navigation />
+		</div>
+	)
 }

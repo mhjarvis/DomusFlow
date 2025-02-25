@@ -55,16 +55,18 @@
 
 .itemNameWrapper {
 	overflow: hidden;
-	width: 0; /* Collapsed state */
-	transition: width 0.5s ease; /* Smooth text expansion */
+	width: 0;
+	transition: width 0.5s ease;
 }
 
 .expanded .itemNameWrapper {
-	width: 150px; /* Adjust based on your design */
+	width: 150px;
 }
 
 .itemName {
 	white-space: nowrap; /* Prevent text wrapping */
+	color: var(--text);
+	text-decoration: none;
 	font-size: 1.4rem;
 	margin-left: 1.4rem;
 	font-weight: 200;

@@ -1,3 +1,9 @@
+import Navigation from "../ui/navigation/Navigation"
+
 export default function Applicances() {
-	return <div>Appliances</div>
+	return (
+		<div>
+			<Navigation />
+		</div>
+	)
 }

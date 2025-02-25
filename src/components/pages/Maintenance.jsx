@@ -1,3 +1,9 @@
+import Navigation from "../ui/navigation/Navigation"
+
 export default function Maintenance() {
-	return <div>Maintenance</div>
+	return (
+		<div>
+			<Navigation />
+		</div>
+	)
 }

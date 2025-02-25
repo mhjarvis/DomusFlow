@@ -1,15 +1,28 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
-import { Home, Calendar, Wrench, Cloud, Box, MessageSquare } from "lucide-react"
+import { NavLink } from "react-router-dom"
+import {
+	Home,
+	Calendar,
+	Wrench,
+	Cloud,
+	Box,
+	MessageSquare,
+	PenTool,
+} from "lucide-react"
 import HamburgerMenu from "./HamburgerMenu"
 import styles from "./Navigation.module.css"
 
 const menuItems = [
 	{ name: "Dashboard", link: "/", icon: <Home size={20} /> },
-	{ name: "Schedule", link: "/schedule", icon: <Calendar size={20} /> },
+	{
+		name: "Property Details",
+		link: "/property-details",
+		icon: <Calendar size={20} />,
+	},
 	{ name: "Maintenance", link: "/maintenance", icon: <Wrench size={20} /> },
-	{ name: "Weather", link: "/weather", icon: <Cloud size={20} /> },
 	{ name: "Appliances", link: "/appliances", icon: <Box size={20} /> },
+	{ name: "Projects", link: "/projects", icon: <PenTool size={20} /> },
+	{ name: "Weather", link: "/weather", icon: <Cloud size={20} /> },
 	{ name: "Forum", link: "/forum", icon: <MessageSquare size={20} /> },
 ]
 
@@ -35,9 +48,9 @@ export default function Sidebar() {
 				<div key={index} className={styles.itemContainer}>
 					<div className={styles.itemIcon}>{item.icon}</div>
 					<div className={styles.itemNameWrapper}>
-						<Link to={item.link} className={styles.itemName}>
+						<NavLink to={item.link} className={styles.itemName}>
 							{item.name}
-						</Link>
+						</NavLink>
 					</div>
 				</div>
 			))}

@@ -1,3 +1,9 @@
+import { Navigation } from "lucide-react"
+
 export default function Forum() {
-	return <div>Forum</div>
+	return (
+		<div>
+			<Navigation />
+		</div>
+	)
 }
