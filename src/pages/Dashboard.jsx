@@ -1,9 +1,11 @@
 import styles from "./Dashboard.module.css"
-import Navigation from "../components/ui/navigation/Navigation"
+import WithMenu from "../templates/WithMenu"
 export default function Dashboard() {
 	return (
-		<div>
-			<Navigation />
-		</div>
+		<WithMenu>
+			<div className={styles.dashboard}>
+				<h1>Dashboard</h1>
+			</div>
+		</WithMenu>
 	)
 }
