@@ -1,0 +1,123 @@
+{
+	"properties": [
+		{
+			"id": "home-001",
+			"name": "Main Residence",
+			"pictures": [
+				{
+					"id": "pic-001",
+					"src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+					"alt": "Front view"
+				}
+			],
+			"address": {
+				"street": "123 Oak Street",
+				"city": "Springfield",
+				"state": "IL",
+				"zipCode": "62701",
+				"country": "USA"
+			},
+			"type": "Single Family Home",
+			"ownership": {
+				"status": "Owned",
+				"purchaseDate": "2018-06-15",
+				"purchasePrice": 250000,
+				"currentValue": 275000
+			},
+			"layout": {
+				"bedrooms": 3,
+				"bathrooms": 2,
+				"squareFootage": 1800,
+				"floors": 2,
+				"garage": true,
+				"garageSpots": 2
+			},
+			"utilities": {
+				"electricityProvider": "Springfield Electric",
+				"waterProvider": "City Water Co.",
+				"gasProvider": "Springfield Gas",
+				"internetProvider": "FastNet",
+				"averageMonthlyCosts": {
+					"electricity": 120,
+					"water": 50,
+					"gas": 80,
+					"internet": 60
+				}
+			},
+			"maintenance": {
+				"lastUpdated": "2024-10-01",
+				"tasks": [
+					{
+						"task": "HVAC Service",
+						"date": "2024-09-15",
+						"cost": 150,
+						"notes": "Annual checkup"
+					},
+					{
+						"task": "Roof Inspection",
+						"date": "2023-11-20",
+						"cost": 200,
+						"notes": "Minor repairs completed"
+					}
+				]
+			},
+			"notes": "Great neighborhood, close to schools."
+		},
+		{
+			"id": "home-002",
+			"name": "Vacation Cabin",
+			"pictures": [
+				{
+					"id": "pic-001",
+					"src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+					"alt": "Cozy vacation home exterior"
+				}
+			],
+			"address": {
+				"street": "456 Pine Road",
+				"city": "Lakeview",
+				"state": "CO",
+				"zipCode": "80480",
+				"country": "USA"
+			},
+			"type": "Cabin",
+			"ownership": {
+				"status": "Owned",
+				"purchaseDate": "2020-03-10",
+				"purchasePrice": 180000,
+				"currentValue": 200000
+			},
+			"layout": {
+				"bedrooms": 2,
+				"bathrooms": 1,
+				"squareFootage": 1200,
+				"floors": 1,
+				"garage": false
+			},
+			"utilities": {
+				"electricityProvider": "Mountain Power",
+				"waterProvider": "Well",
+				"gasProvider": null,
+				"internetProvider": "SatelliteNet",
+				"averageMonthlyCosts": {
+					"electricity": 90,
+					"water": 0,
+					"gas": 0,
+					"internet": 80
+				}
+			},
+			"maintenance": {
+				"lastUpdated": "2025-01-15",
+				"tasks": [
+					{
+						"task": "Well Pump Check",
+						"date": "2024-12-10",
+						"cost": 100,
+						"notes": "Running smoothly"
+					}
+				]
+			},
+			"notes": "Seasonal use, needs winter prep."
+		}
+	]
+}
