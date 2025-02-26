@@ -51,73 +51,159 @@
 						"task": "HVAC Service",
 						"date": "2024-09-15",
 						"cost": 150,
-						"notes": "Annual checkup"
+						"notes": "Annual checkup",
+						"priority": "medium"
 					},
 					{
 						"task": "Roof Inspection",
 						"date": "2023-11-20",
 						"cost": 200,
-						"notes": "Minor repairs completed"
+						"notes": "Minor repairs completed",
+						"priority": "high"
+					},
+					{
+						"task": "Change Air Filter",
+						"date": "2024-11-01",
+						"cost": 10,
+						"notes": "Monthly task",
+						"priority": "low"
+					},
+					{
+						"task": "Change Air Filter",
+						"date": "2024-12-01",
+						"cost": 10,
+						"notes": "Monthly task",
+						"priority": "low"
+					},
+					{
+						"task": "Change Air Filter",
+						"date": "2025-01-01",
+						"cost": 10,
+						"notes": "Monthly task",
+						"priority": "low"
+					},
+					{
+						"task": "Change Air Filter",
+						"date": "2025-02-01",
+						"cost": 10,
+						"notes": "Monthly task",
+						"priority": "low"
+					},
+					{
+						"task": "Clean Water Heater",
+						"date": "2025-03-15",
+						"cost": 100,
+						"notes": "Annual flush",
+						"priority": "medium"
+					},
+					{
+						"task": "Clean Gutters",
+						"date": "2024-11-10",
+						"cost": 75,
+						"notes": "Fall cleanup",
+						"priority": "medium"
+					},
+					{
+						"task": "Clean Gutters",
+						"date": "2025-04-20",
+						"cost": 75,
+						"notes": "Spring cleanup",
+						"priority": "medium"
+					},
+					{
+						"task": "Inspect Windows",
+						"date": "2025-05-01",
+						"cost": 50,
+						"notes": "Check seals, semi-annual",
+						"priority": "low"
+					},
+					{
+						"task": "Inspect Windows",
+						"date": "2024-11-15",
+						"cost": 50,
+						"notes": "Check seals, semi-annual",
+						"priority": "low"
+					},
+					{
+						"task": "Service Garage Door",
+						"date": "2025-06-10",
+						"cost": 120,
+						"notes": "Annual lubrication",
+						"priority": "medium"
+					},
+					{
+						"task": "Check Smoke Detectors",
+						"date": "2024-12-15",
+						"cost": 20,
+						"notes": "Replace batteries, semi-annual",
+						"priority": "high"
+					},
+					{
+						"task": "Check Smoke Detectors",
+						"date": "2025-06-15",
+						"cost": 20,
+						"notes": "Replace batteries, semi-annual",
+						"priority": "high"
+					},
+					{
+						"task": "Fertilize Lawn",
+						"date": "2025-04-01",
+						"cost": 60,
+						"notes": "Spring application",
+						"priority": "low"
+					},
+					{
+						"task": "Fertilize Lawn",
+						"date": "2024-10-15",
+						"cost": 60,
+						"notes": "Fall application",
+						"priority": "low"
+					},
+					{
+						"task": "Clean Dryer Vent",
+						"date": "2025-02-20",
+						"cost": 80,
+						"notes": "Annual safety check",
+						"priority": "high"
+					},
+					{
+						"task": "Inspect Plumbing",
+						"date": "2025-01-10",
+						"cost": 90,
+						"notes": "Annual leak check",
+						"priority": "medium"
+					},
+					{
+						"task": "Trim Trees",
+						"date": "2024-11-30",
+						"cost": 150,
+						"notes": "Pre-winter trim",
+						"priority": "medium"
+					},
+					{
+						"task": "Change Air Filter",
+						"date": "2024-10-01",
+						"cost": 10,
+						"notes": "Monthly task",
+						"priority": "low"
+					},
+					{
+						"task": "Seal Driveway",
+						"date": "2025-07-15",
+						"cost": 200,
+						"notes": "Annual maintenance",
+						"priority": "medium"
+					},
+					{
+						"task": "Test Sump Pump",
+						"date": "2025-03-01",
+						"cost": 30,
+						"notes": "Annual check",
+						"priority": "high"
 					}
 				]
 			},
 			"notes": "Great neighborhood, close to schools."
-		},
-		{
-			"id": "home-002",
-			"name": "Vacation Cabin",
-			"pictures": [
-				{
-					"id": "pic-001",
-					"src": "https://unsplash.com/photos/brown-house-beside-body-of-water-hBh9JbyeCtg",
-					"alt": "Cozy vacation home exterior"
-				}
-			],
-			"address": {
-				"street": "456 Pine Road",
-				"city": "Lakeview",
-				"state": "CO",
-				"zipCode": "80480",
-				"country": "USA"
-			},
-			"type": "Cabin",
-			"ownership": {
-				"status": "Owned",
-				"purchaseDate": "2020-03-10",
-				"purchasePrice": 180000,
-				"currentValue": 200000
-			},
-			"layout": {
-				"bedrooms": 2,
-				"bathrooms": 1,
-				"squareFootage": 1200,
-				"floors": 1,
-				"garage": false
-			},
-			"utilities": {
-				"electricityProvider": "Mountain Power",
-				"waterProvider": "Well",
-				"gasProvider": null,
-				"internetProvider": "SatelliteNet",
-				"averageMonthlyCosts": {
-					"electricity": 90,
-					"water": 0,
-					"gas": 0,
-					"internet": 80
-				}
-			},
-			"maintenance": {
-				"lastUpdated": "2025-01-15",
-				"tasks": [
-					{
-						"task": "Well Pump Check",
-						"date": "2024-12-10",
-						"cost": 100,
-						"notes": "Running smoothly"
-					}
-				]
-			},
-			"notes": "Seasonal use, needs winter prep."
 		}
 	]
 }
