@@ -11,6 +11,9 @@ export default function PropertyOverview({ data }) {
 			/>
 			<div className={styles.propertyContent}>
 				<h2 className={styles.propertyName}>{data.name}</h2>
+				<p className={styles.propertyAddress}>
+					{data.address.street}, {data.address.city}, {data.address.state}{" "}
+				</p>
 			</div>
 		</div>
 	)
