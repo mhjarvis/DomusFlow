@@ -1,6 +1,6 @@
 import styles from "./Dashboard.module.css"
 import MainWithSidebar from "../../templates/MainWithSidebar"
-import PropertyOverview from "./PropertyOverview"
+import PropertyOverview from "../../components/ui/Dashboard/PropertyOverview"
 import { useEffect, useState } from "react"
 
 export default function Dashboard() {
